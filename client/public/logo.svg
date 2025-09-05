@@ -1,0 +1,39 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chartGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="96" cy="96" r="96" fill="url(#bgGradient)"/>
+  
+  <!-- Trading chart container -->
+  <rect x="32" y="40" width="128" height="80" rx="8" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  
+  <!-- Chart grid lines -->
+  <line x1="48" y1="50" x2="48" y2="110" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="80" y1="50" x2="80" y2="110" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="112" y1="50" x2="112" y2="110" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="144" y1="50" x2="144" y2="110" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  
+  <!-- Chart line -->
+  <path d="M48 100L80 70L112 85L144 55" stroke="url(#chartGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Data points -->
+  <circle cx="48" cy="100" r="4" fill="white" stroke="url(#chartGradient)" stroke-width="2"/>
+  <circle cx="80" cy="70" r="4" fill="white" stroke="url(#chartGradient)" stroke-width="2"/>
+  <circle cx="112" cy="85" r="4" fill="white" stroke="url(#chartGradient)" stroke-width="2"/>
+  <circle cx="144" cy="55" r="4" fill="white" stroke="url(#chartGradient)" stroke-width="2"/>
+  
+  <!-- App name -->
+  <text x="96" y="150" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">TradeLytics</text>
+  <text x="96" y="170" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="12">Analytics Dashboard</text>
+</svg>

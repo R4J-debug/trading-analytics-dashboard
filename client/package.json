@@ -1,6 +1,9 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "tradelytics-dashboard",
+  "version": "1.0.0",
+  "description": "Professional trading analytics dashboard with comprehensive performance metrics and interactive visualizations",
+  "author": "Arijit",
+  "keywords": ["trading", "analytics", "dashboard", "finance", "react", "typescript"],
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
